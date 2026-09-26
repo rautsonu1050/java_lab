@@ -42,7 +42,6 @@ class Developer extends Employee {
         System.out.println("Role: Developer");
     }
 }
-
 public class exp_2 {
     public static void main(String[] args) {
         Developer emp = new Developer("IT", 50000, "Software Developer", "Chennai");
