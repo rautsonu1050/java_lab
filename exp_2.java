@@ -36,8 +36,6 @@ class Developer extends Employee {
     Developer(String department, double salary, String designation, String location) {
         super(department, salary, designation, location);
     }
-
-    @Override
     void displayRole() {
         System.out.println("Role: Developer");
     }
